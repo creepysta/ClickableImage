@@ -55,6 +55,21 @@
         app:layout_constraintTop_toBottomOf="@+id/img"
         app:layout_constraintVertical_bias="0.877" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Show Image Button"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/show_hide_imgBtn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img"
+        app:layout_constraintVertical_bias="0.793" />
+
     <CheckBox
         android:id="@+id/show_hide_imgBtn"
         android:layout_width="wrap_content"
@@ -63,13 +78,12 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Show Image Button"
         app:layout_constraintBottom_toBottomOf="@+id/refresh"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.779"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img"
-        app:layout_constraintVertical_bias="0.865" />
+        app:layout_constraintVertical_bias="0.848" />
 
     <Button
         android:id="@+id/refresh"
